@@ -1,0 +1,8 @@
+**/__pycache__
+run.sh
+nohup.out
+.snakemake
+**/*.nxs
+data/reduction/*
+daas_toby.*
+**/.ipynb_checkpoints
