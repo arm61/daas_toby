@@ -1,0 +1,324 @@
+_______________________________________________________________________________
+
+--Global Objective--
+________________________________________________________________________________
+Objective - 140522525995752
+Dataset = <None>, 73 points
+datapoints = 73
+chi2 = 984.2413036201002
+Weighted = True
+Transform = Transform('YX4')
+________________________________________________________________________________
+Parameters:       ''       
+________________________________________________________________________________
+Parameters: 'instrument parameters'
+<Parameter:    'scale'    , value=1 (fixed)  , bounds=[-inf, inf]>
+<Parameter:     'bkg'     , value=8.39666e-10 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'dq - resolution', value=5 (fixed)  , bounds=[-inf, inf]>
+________________________________________________________________________________
+Parameters: 'Structure - ' 
+________________________________________________________________________________
+Parameters:      'air'     
+<Parameter: 'air - thick' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:  'air - sld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'air - isld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'air - rough' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'air - volfrac solvent', value=0 (fixed)  , bounds=[0.0, 1.0]>
+________________________________________________________________________________
+Parameters:    'sample1'   
+<Parameter:'sample1 - b_real_head', value=0.00463427 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample1 - b_imag_head', value=9.37402e-06 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample1 - b_real_tail', value=0.00682609 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample1 - b_imag_tail', value=2.98216e-06 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample1 - thickness_head', value=10 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample1 - thickness_tail', value=16.2574 +/- 0.0208, bounds=[14.0, 20.0]>
+<Parameter:'sample1 - molecular_volume_head', value=319 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample1 - molecular_volume_tail', value=829 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample1 - roughness_head_tail', value=3.61817 +/- 0.00943, bounds=[-inf, inf], constraint=<Parameter: 'h2o - rough' , value=3.61817 +/- 0.00943, bounds=[2.9, 5.0]>>
+<Parameter:'sample1 - roughness_tail_air', value=3.61817 +/- 0.00943, bounds=[-inf, inf], constraint=<Parameter: 'h2o - rough' , value=3.61817 +/- 0.00943, bounds=[2.9, 5.0]>>
+<Parameter:'sample1 - solvation_head', value=0.623691 +/- 0.00388, bounds=[0.5, 0.95]>
+<Parameter:'sample1 - solvation_tail', value=0.0178627 +/- 0.00204, bounds=[0.0, 0.25]>
+________________________________________________________________________________
+Parameters:      'h2o'     
+<Parameter: 'h2o - thick' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:  'h2o - sld'  , value=9.45 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'h2o - isld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'h2o - rough' , value=3.61817 +/- 0.00943, bounds=[2.9, 5.0]>
+<Parameter:'h2o - volfrac solvent', value=0 (fixed)  , bounds=[0.0, 1.0]>
+
+
+________________________________________________________________________________
+Objective - 140522525995864
+Dataset = <None>, 73 points
+datapoints = 73
+chi2 = 954.388651334988
+Weighted = True
+Transform = Transform('YX4')
+________________________________________________________________________________
+Parameters:       ''       
+________________________________________________________________________________
+Parameters: 'instrument parameters'
+<Parameter:    'scale'    , value=1   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:    'scale'    , value=1 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:     'bkg'     , value=4.64864e-10 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'dq - resolution', value=5 (fixed)  , bounds=[-inf, inf]>
+________________________________________________________________________________
+Parameters: 'Structure - ' 
+________________________________________________________________________________
+Parameters:      'air'     
+<Parameter: 'air - thick' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:  'air - sld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'air - isld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'air - rough' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'air - volfrac solvent', value=0 (fixed)  , bounds=[0.0, 1.0]>
+________________________________________________________________________________
+Parameters:    'sample2'   
+<Parameter:'sample2 - b_real_head', value=0.00463427 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample2 - b_imag_head', value=9.37402e-06 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample2 - b_real_tail', value=0.00682609 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample2 - b_imag_tail', value=2.98216e-06 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample2 - thickness_head', value=10   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - thickness_head', value=10 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample2 - thickness_tail', value=16.6783 +/- 0.023, bounds=[14.0, 20.0]>
+<Parameter:'sample2 - molecular_volume_head', value=319   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - molecular_volume_head', value=319 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample2 - molecular_volume_tail', value=829   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - molecular_volume_tail', value=829 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample2 - roughness_head_tail', value=3.63327 +/- 0.00965, bounds=[-inf, inf], constraint=<Parameter: 'h2o - rough' , value=3.63327 +/- 0.00965, bounds=[2.9, 5.0]>>
+<Parameter:'sample2 - roughness_tail_air', value=3.63327 +/- 0.00965, bounds=[-inf, inf], constraint=<Parameter: 'h2o - rough' , value=3.63327 +/- 0.00965, bounds=[2.9, 5.0]>>
+<Parameter:'sample2 - solvation_head', value=0.624372 +/- 0.00363, bounds=[0.5, 0.95]>
+<Parameter:'sample2 - solvation_tail', value=0.00573108 +/- 0.00196, bounds=[0.0, 0.25]>
+________________________________________________________________________________
+Parameters:      'h2o'     
+<Parameter: 'h2o - thick' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:  'h2o - sld'  , value=9.45 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'h2o - isld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'h2o - rough' , value=3.63327 +/- 0.00965, bounds=[2.9, 5.0]>
+<Parameter:'h2o - volfrac solvent', value=0 (fixed)  , bounds=[0.0, 1.0]>
+
+
+________________________________________________________________________________
+Objective - 140522525995976
+Dataset = <None>, 73 points
+datapoints = 73
+chi2 = 826.4566110746391
+Weighted = True
+Transform = Transform('YX4')
+________________________________________________________________________________
+Parameters:       ''       
+________________________________________________________________________________
+Parameters: 'instrument parameters'
+<Parameter:    'scale'    , value=1   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:    'scale'    , value=1 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:     'bkg'     , value=3.86864e-10 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'dq - resolution', value=5 (fixed)  , bounds=[-inf, inf]>
+________________________________________________________________________________
+Parameters: 'Structure - ' 
+________________________________________________________________________________
+Parameters:      'air'     
+<Parameter: 'air - thick' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:  'air - sld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'air - isld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'air - rough' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'air - volfrac solvent', value=0 (fixed)  , bounds=[0.0, 1.0]>
+________________________________________________________________________________
+Parameters:    'sample3'   
+<Parameter:'sample3 - b_real_head', value=0.00463427 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample3 - b_imag_head', value=9.37402e-06 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample3 - b_real_tail', value=0.00682609 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample3 - b_imag_tail', value=2.98216e-06 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample3 - thickness_head', value=10   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - thickness_head', value=10 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample3 - thickness_tail', value=16.6721 +/- 0.022, bounds=[14.0, 20.0]>
+<Parameter:'sample3 - molecular_volume_head', value=319   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - molecular_volume_head', value=319 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample3 - molecular_volume_tail', value=829   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - molecular_volume_tail', value=829 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample3 - roughness_head_tail', value=3.54142 +/- 0.00905, bounds=[-inf, inf], constraint=<Parameter: 'h2o - rough' , value=3.54142 +/- 0.00905, bounds=[2.9, 5.0]>>
+<Parameter:'sample3 - roughness_tail_air', value=3.54142 +/- 0.00905, bounds=[-inf, inf], constraint=<Parameter: 'h2o - rough' , value=3.54142 +/- 0.00905, bounds=[2.9, 5.0]>>
+<Parameter:'sample3 - solvation_head', value=0.640847 +/- 0.00363, bounds=[0.5, 0.95]>
+<Parameter:'sample3 - solvation_tail', value=0.00252875 +/- 0.00169, bounds=[0.0, 0.25]>
+________________________________________________________________________________
+Parameters:      'h2o'     
+<Parameter: 'h2o - thick' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:  'h2o - sld'  , value=9.45 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'h2o - isld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'h2o - rough' , value=3.54142 +/- 0.00905, bounds=[2.9, 5.0]>
+<Parameter:'h2o - volfrac solvent', value=0 (fixed)  , bounds=[0.0, 1.0]>
+
+
+________________________________________________________________________________
+Objective - 140522525996088
+Dataset = <None>, 73 points
+datapoints = 73
+chi2 = 848.4807856399666
+Weighted = True
+Transform = Transform('YX4')
+________________________________________________________________________________
+Parameters:       ''       
+________________________________________________________________________________
+Parameters: 'instrument parameters'
+<Parameter:    'scale'    , value=1   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:    'scale'    , value=1 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:     'bkg'     , value=2.489e-10 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'dq - resolution', value=5 (fixed)  , bounds=[-inf, inf]>
+________________________________________________________________________________
+Parameters: 'Structure - ' 
+________________________________________________________________________________
+Parameters:      'air'     
+<Parameter: 'air - thick' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:  'air - sld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'air - isld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'air - rough' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'air - volfrac solvent', value=0 (fixed)  , bounds=[0.0, 1.0]>
+________________________________________________________________________________
+Parameters:    'sample4'   
+<Parameter:'sample4 - b_real_head', value=0.00463427 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample4 - b_imag_head', value=9.37402e-06 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample4 - b_real_tail', value=0.00682609 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample4 - b_imag_tail', value=2.98216e-06 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample4 - thickness_head', value=10   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - thickness_head', value=10 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample4 - thickness_tail', value=16.9661 +/- 0.0216, bounds=[14.0, 20.0]>
+<Parameter:'sample4 - molecular_volume_head', value=319   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - molecular_volume_head', value=319 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample4 - molecular_volume_tail', value=829   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - molecular_volume_tail', value=829 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample4 - roughness_head_tail', value=3.52936 +/- 0.00877, bounds=[-inf, inf], constraint=<Parameter: 'h2o - rough' , value=3.52936 +/- 0.00877, bounds=[2.9, 5.0]>>
+<Parameter:'sample4 - roughness_tail_air', value=3.52936 +/- 0.00877, bounds=[-inf, inf], constraint=<Parameter: 'h2o - rough' , value=3.52936 +/- 0.00877, bounds=[2.9, 5.0]>>
+<Parameter:'sample4 - solvation_head', value=0.627109 +/- 0.00286, bounds=[0.5, 0.95]>
+<Parameter:'sample4 - solvation_tail', value=0.000328931 +/- 0.00045, bounds=[0.0, 0.25]>
+________________________________________________________________________________
+Parameters:      'h2o'     
+<Parameter: 'h2o - thick' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:  'h2o - sld'  , value=9.45 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'h2o - isld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'h2o - rough' , value=3.52936 +/- 0.00877, bounds=[2.9, 5.0]>
+<Parameter:'h2o - volfrac solvent', value=0 (fixed)  , bounds=[0.0, 1.0]>
+
+
+________________________________________________________________________________
+Objective - 140522525996200
+Dataset = <None>, 73 points
+datapoints = 73
+chi2 = 789.1442537352453
+Weighted = True
+Transform = Transform('YX4')
+________________________________________________________________________________
+Parameters:       ''       
+________________________________________________________________________________
+Parameters: 'instrument parameters'
+<Parameter:    'scale'    , value=1   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:    'scale'    , value=1 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:     'bkg'     , value=1.78222e-10 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'dq - resolution', value=5 (fixed)  , bounds=[-inf, inf]>
+________________________________________________________________________________
+Parameters: 'Structure - ' 
+________________________________________________________________________________
+Parameters:      'air'     
+<Parameter: 'air - thick' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:  'air - sld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'air - isld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'air - rough' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'air - volfrac solvent', value=0 (fixed)  , bounds=[0.0, 1.0]>
+________________________________________________________________________________
+Parameters:    'sample5'   
+<Parameter:'sample5 - b_real_head', value=0.00463427 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample5 - b_imag_head', value=9.37402e-06 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample5 - b_real_tail', value=0.00682609 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample5 - b_imag_tail', value=2.98216e-06 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample5 - thickness_head', value=10   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - thickness_head', value=10 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample5 - thickness_tail', value=16.735 +/- 0.0213, bounds=[14.0, 20.0]>
+<Parameter:'sample5 - molecular_volume_head', value=319   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - molecular_volume_head', value=319 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample5 - molecular_volume_tail', value=829   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - molecular_volume_tail', value=829 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample5 - roughness_head_tail', value=3.60908 +/- 0.00944, bounds=[-inf, inf], constraint=<Parameter: 'h2o - rough' , value=3.60908 +/- 0.00944, bounds=[2.9, 5.0]>>
+<Parameter:'sample5 - roughness_tail_air', value=3.60908 +/- 0.00944, bounds=[-inf, inf], constraint=<Parameter: 'h2o - rough' , value=3.60908 +/- 0.00944, bounds=[2.9, 5.0]>>
+<Parameter:'sample5 - solvation_head', value=0.643324 +/- 0.00353, bounds=[0.5, 0.95]>
+<Parameter:'sample5 - solvation_tail', value=0.00390656 +/- 0.00206, bounds=[0.0, 0.25]>
+________________________________________________________________________________
+Parameters:      'h2o'     
+<Parameter: 'h2o - thick' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:  'h2o - sld'  , value=9.45 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'h2o - isld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'h2o - rough' , value=3.60908 +/- 0.00944, bounds=[2.9, 5.0]>
+<Parameter:'h2o - volfrac solvent', value=0 (fixed)  , bounds=[0.0, 1.0]>
+
+
+________________________________________________________________________________
+Objective - 140522525996312
+Dataset = <None>, 73 points
+datapoints = 73
+chi2 = 718.2417431959892
+Weighted = True
+Transform = Transform('YX4')
+________________________________________________________________________________
+Parameters:       ''       
+________________________________________________________________________________
+Parameters: 'instrument parameters'
+<Parameter:    'scale'    , value=1   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:    'scale'    , value=1 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:     'bkg'     , value=7.58812e-10 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'dq - resolution', value=5 (fixed)  , bounds=[-inf, inf]>
+________________________________________________________________________________
+Parameters: 'Structure - ' 
+________________________________________________________________________________
+Parameters:      'air'     
+<Parameter: 'air - thick' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:  'air - sld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'air - isld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'air - rough' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'air - volfrac solvent', value=0 (fixed)  , bounds=[0.0, 1.0]>
+________________________________________________________________________________
+Parameters:    'sample6'   
+<Parameter:'sample6 - b_real_head', value=0.00463427 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample6 - b_imag_head', value=9.37402e-06 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample6 - b_real_tail', value=0.00682609 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample6 - b_imag_tail', value=2.98216e-06 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample6 - thickness_head', value=10   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - thickness_head', value=10 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample6 - thickness_tail', value=16.6722 +/- 0.0246, bounds=[14.0, 20.0]>
+<Parameter:'sample6 - molecular_volume_head', value=319   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - molecular_volume_head', value=319 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample6 - molecular_volume_tail', value=829   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - molecular_volume_tail', value=829 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample6 - roughness_head_tail', value=3.63628 +/- 0.0094, bounds=[-inf, inf], constraint=<Parameter: 'h2o - rough' , value=3.63628 +/- 0.0094, bounds=[2.9, 5.0]>>
+<Parameter:'sample6 - roughness_tail_air', value=3.63628 +/- 0.0094, bounds=[-inf, inf], constraint=<Parameter: 'h2o - rough' , value=3.63628 +/- 0.0094, bounds=[2.9, 5.0]>>
+<Parameter:'sample6 - solvation_head', value=0.650264 +/- 0.00315, bounds=[0.5, 0.95]>
+<Parameter:'sample6 - solvation_tail', value=0.00149522 +/- 0.00122, bounds=[0.0, 0.25]>
+________________________________________________________________________________
+Parameters:      'h2o'     
+<Parameter: 'h2o - thick' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:  'h2o - sld'  , value=9.45 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'h2o - isld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'h2o - rough' , value=3.63628 +/- 0.0094, bounds=[2.9, 5.0]>
+<Parameter:'h2o - volfrac solvent', value=0 (fixed)  , bounds=[0.0, 1.0]>
+
+
+________________________________________________________________________________
+Objective - 140522525996424
+Dataset = <None>, 73 points
+datapoints = 73
+chi2 = 914.5945190734302
+Weighted = True
+Transform = Transform('YX4')
+________________________________________________________________________________
+Parameters:       ''       
+________________________________________________________________________________
+Parameters: 'instrument parameters'
+<Parameter:    'scale'    , value=1   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:    'scale'    , value=1 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:     'bkg'     , value=1.095e-09 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'dq - resolution', value=5 (fixed)  , bounds=[-inf, inf]>
+________________________________________________________________________________
+Parameters: 'Structure - ' 
+________________________________________________________________________________
+Parameters:      'air'     
+<Parameter: 'air - thick' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:  'air - sld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'air - isld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'air - rough' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'air - volfrac solvent', value=0 (fixed)  , bounds=[0.0, 1.0]>
+________________________________________________________________________________
+Parameters:    'sample7'   
+<Parameter:'sample7 - b_real_head', value=0.00463427 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample7 - b_imag_head', value=9.37402e-06 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample7 - b_real_tail', value=0.00682609 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample7 - b_imag_tail', value=2.98216e-06 (fixed)  , bounds=[-inf, inf]>
+<Parameter:'sample7 - thickness_head', value=10   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - thickness_head', value=10 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample7 - thickness_tail', value=16.6845 +/- 0.022, bounds=[14.0, 20.0]>
+<Parameter:'sample7 - molecular_volume_head', value=319   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - molecular_volume_head', value=319 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample7 - molecular_volume_tail', value=829   +/- 0  , bounds=[-inf, inf], constraint=<Parameter:'sample1 - molecular_volume_tail', value=829 (fixed)  , bounds=[-inf, inf]>>
+<Parameter:'sample7 - roughness_head_tail', value=3.57422 +/- 0.00916, bounds=[-inf, inf], constraint=<Parameter: 'h2o - rough' , value=3.57422 +/- 0.00916, bounds=[2.9, 5.0]>>
+<Parameter:'sample7 - roughness_tail_air', value=3.57422 +/- 0.00916, bounds=[-inf, inf], constraint=<Parameter: 'h2o - rough' , value=3.57422 +/- 0.00916, bounds=[2.9, 5.0]>>
+<Parameter:'sample7 - solvation_head', value=0.629215 +/- 0.00314, bounds=[0.5, 0.95]>
+<Parameter:'sample7 - solvation_tail', value=0.000666302 +/- 0.000833, bounds=[0.0, 0.25]>
+________________________________________________________________________________
+Parameters:      'h2o'     
+<Parameter: 'h2o - thick' , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter:  'h2o - sld'  , value=9.45 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'h2o - isld'  , value=0 (fixed)  , bounds=[-inf, inf]>
+<Parameter: 'h2o - rough' , value=3.57422 +/- 0.00916, bounds=[2.9, 5.0]>
+<Parameter:'h2o - volfrac solvent', value=0 (fixed)  , bounds=[0.0, 1.0]>
+
